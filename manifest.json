@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Top Scroll Toggle",
+    "version": "1.0",
+    "description": "Скроллит страницу вверх и возвращает обратно при повторном нажатии.",
+
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+
+    "background": {
+        "scripts": "background.js"
+    },
+
+    "action": {
+        "default_icon": {
+            "48": "icon48.png",
+            "96": "icon96.png"
+        },
+        "default_title": "Вверх / Обратно"
+    },
+
+    "icons": {
+        "48": "icon48.png",
+        "96": "icon96.png"
+    }
+}
