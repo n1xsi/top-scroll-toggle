@@ -10,19 +10,19 @@
     ],
 
     "background": {
-        "scripts": "background.js"
+        "scripts": ["background.js"]
     },
 
     "action": {
         "default_icon": {
-            "48": "icon48.png",
-            "96": "icon96.png"
+            "48": "icons/icon48.png",
+            "96": "icons/icon96.png"
         },
         "default_title": "Вверх / Обратно"
     },
 
     "icons": {
-        "48": "icon48.png",
-        "96": "icon96.png"
+        "48": "icons/icon48.png",
+        "96": "icons/icon96.png"
     }
 }
